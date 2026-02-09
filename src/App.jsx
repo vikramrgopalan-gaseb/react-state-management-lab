@@ -116,8 +116,7 @@ const handleRemoveFighter = (fighterToRemove) => {
   };
 
 return (
-  <h1>Hello world!</h1>
-
+  // <h1>Hello world!</h1>
   <div className="container">
       <h1>Zombie Fighters</h1>
       <div className="stats-bar">
@@ -139,10 +138,10 @@ return (
               <button className="add-btn" onClick={() => handleAddFighter(fighter)}>Add</button>
             </li>
           ))}
-        </ul>
-        </section>
+       </ul>
+    </section>
 
-        <section>
+    <section>
         <h2>Your Team</h2>
         {team.length === 0 ? (
           <p>Pick some team members!</p>
@@ -160,8 +159,8 @@ return (
             ))}
           </ul>
         )}
-      </section>
-  );
-}
+    </section>
+ );
+};
 
 export default App
