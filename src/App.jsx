@@ -7,6 +7,8 @@ import './App.css'
 
 const App = () => {
 
+// setting team, money and zombie list
+
 const [team, setTeam] = useState([]);
 const [money, setMoney] = useState(100);
 
@@ -95,6 +97,8 @@ const [zombieFighters, setZombieFighters] = useState(
 ]
 );
 
+// add a zombie fighter
+
 const handleAddFighter = (fighter) => {
     if (money < fighter.price) {
       console.log('Not enough money');
@@ -105,15 +109,21 @@ const handleAddFighter = (fighter) => {
     setZombieFighters(zombieFighters.filter((zombieFighter) => zombieFighter.id !== fighter.id));
   };
 
+// update team strength and agility
+
 const totalStrength = team.reduce((total, fighter) => total + fighter.strength, 0);
 
 const totalAgility = team.reduce((total, fighter) => total + fighter.agility, 0);
+
+// remove a zombie fighter
 
 const handleRemoveFighter = (fighterToRemove) => {
     setTeam(team.filter((zombieFighter) => zombieFighter.id !== fighterToRemove.id));
     setZombieFighters([...zombieFighters, fighterToRemove]);
     setMoney(money + fighterToRemove.price);
   };
+
+// UI
 
 return (
   // <h1>Hello world!</h1>
