@@ -102,7 +102,7 @@ const handleAddFighter = (fighter) => {
     }
     setTeam([...team, fighter]);
     setMoney(money - fighter.price);
-    setZombieFighters(zombieFighters.filter((f) => f.id !== fighter.id));
+    setZombieFighters(zombieFighters.filter((zombieFighter) => zombieFighter.id !== fighter.id));
   };
 
 const totalStrength = team.reduce((total, fighter) => total + fighter.strength, 0);
@@ -110,7 +110,7 @@ const totalStrength = team.reduce((total, fighter) => total + fighter.strength, 
 const totalAgility = team.reduce((total, fighter) => total + fighter.agility, 0);
 
 const handleRemoveFighter = (fighterToRemove) => {
-    setTeam(team.filter((f) => f.id !== fighterToRemove.id));
+    setTeam(team.filter((zombieFighter) => zombieFighter.id !== fighterToRemove.id));
     setZombieFighters([...zombieFighters, fighterToRemove]);
     setMoney(money + fighterToRemove.price);
   };
@@ -160,6 +160,7 @@ return (
           </ul>
         )}
     </section>
+  </div>
  );
 };
 
