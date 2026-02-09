@@ -18,7 +18,7 @@ const [zombieFighters, setZombieFighters] = useState(
     price: 12,
     strength: 6,
     agility: 4,
-    img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/0c2d6b.png',
+    img: 'https://www.fearthewalkingdead.com.br/wp-content/uploads/2017/09/comic-con-experience-2017-danai-gurira-anunciada-732x732.jpg',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const [zombieFighters, setZombieFighters] = useState(
     price: 10,
     strength: 5,
     agility: 5,
-    img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/033a16.png',
+    img: 'https://pyxis.nymag.com/v1/imgs/a33/147/e6a8508eccc0078e333274310962b2bde9-the-walking-dead.rsquare.w400.jpg',
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const [zombieFighters, setZombieFighters] = useState(
     price: 18,
     strength: 7,
     agility: 8,
-    img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/262c36.png',
+    img: 'https://www.starburstmagazine.com/wp-content/uploads/2018/06/Shane-3-shane-walsh-27584140-500-500.jpg',
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const [zombieFighters, setZombieFighters] = useState(
     price: 14,
     strength: 7,
     agility: 6,
-    img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/3c1e70.png',
+    img: 'https://pbs.twimg.com/profile_images/440519981176877057/_v1o9qS1_400x400.png',
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ const [zombieFighters, setZombieFighters] = useState(
     price: 20,
     strength: 6,
     agility: 8,
-    img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/4b2900.png',
+    img: 'https://pbs.twimg.com/profile_images/1049122493611606016/tKGA9BFh_400x400.jpg',
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const [zombieFighters, setZombieFighters] = useState(
     price: 15,
     strength: 5,
     agility: 7,
-    img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/5a1e02.png',
+    img: 'https://pbs.twimg.com/profile_images/433070389791432704/r9Qps0Ln_400x400.jpeg',
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ const [zombieFighters, setZombieFighters] = useState(
     price: 16,
     strength: 6,
     agility: 5,
-    img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/5e103e.png',
+    img: 'https://pbs.twimg.com/profile_images/1347289264401297409/vkFy7ChA.jpg',
   },
   {
     id: 8,
@@ -74,7 +74,7 @@ const [zombieFighters, setZombieFighters] = useState(
     price: 11,
     strength: 8,
     agility: 3,
-    img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/67060c.png',
+    img: 'https://i0.wp.com/www.austinchronicle.com/wp-content/uploads/2012/10/rookermerle.webp?fit=490%2C490&ssl=1',
   },
   {
     id: 9,
@@ -82,7 +82,7 @@ const [zombieFighters, setZombieFighters] = useState(
     price: 17,
     strength: 5,
     agility: 9,
-    img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/ac3220.png',
+    img: 'https://pyxis.nymag.com/v1/imgs/f71/651/a06b7292aabddad2d0c93a194371c8a59a-05-walking-dead-lori2.rsquare.w400.jpg',
   },
   {
     id: 10,
@@ -90,7 +90,7 @@ const [zombieFighters, setZombieFighters] = useState(
     price: 22,
     strength: 7,
     agility: 6,
-    img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/e41f26.png',
+    img: 'https://avatarfiles.alphacoders.com/148/thumb-350-148528.webp',
   },
 ]
 );
