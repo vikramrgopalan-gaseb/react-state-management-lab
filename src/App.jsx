@@ -105,9 +105,9 @@ const handleAddFighter = (fighter) => {
     setZombieFighters(zombieFighters.filter((f) => f.id !== fighter.id));
   };
 
-const totalStrength = team.reduce((acc, fighter) => acc + fighter.strength, 0);
+const totalStrength = team.reduce((total, fighter) => total + fighter.strength, 0);
 
-const totalAgility = team.reduce((acc, fighter) => acc + fighter.agility, 0);
+const totalAgility = team.reduce((total, fighter) => total + fighter.agility, 0);
 
 const handleRemoveFighter = (fighterToRemove) => {
     setTeam(team.filter((f) => f.id !== fighterToRemove.id));
